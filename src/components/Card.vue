@@ -48,7 +48,7 @@ export default {
   props: ["user", "hasAlreadyLinked"],
   methods: {
     addContact(user) {
-      this.$emit("add-contact", user);
+      this.$emit("add-contact", user);   
       this.hasAlreadyLinked = false;
     },
     deleteContact(user) {
